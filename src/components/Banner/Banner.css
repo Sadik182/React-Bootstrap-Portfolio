@@ -1,0 +1,23 @@
+body{
+    background-color:darkgray;
+    font-family: 'Charm', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon a {
+    background-color: rgb(52, 11, 231);
+    color: white;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid rgb(52, 11, 231);
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.icon a:hover {
+    background-color: #ff4040;
+    border: #ff4040;
+    color: black;
+}
