@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <Container>
             <div className='row d-flex justify-content-center align-items-center'>
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-8 col-md-8 col-sm-12">
                 <h1 className="fw-bold fs-1">This is Md. Sadikur Rahman</h1>
                 <h3 className="fw-bold fs-3">Jr. Software Engineer</h3>
                 <h3>I am working as a MERN Stack Developer</h3>
@@ -25,7 +25,7 @@ const Banner = () => {
                 <Button href="" variant='primary' size='lg'>Download CV</Button>
                 </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-4 col-sm-12">
                <div className='py-5'>
                  <img src={bannerImg} alt="" />
                </div>

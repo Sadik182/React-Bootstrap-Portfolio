@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import { Button, Container } from 'react-bootstrap';
-import aboutImage from '../../images/about.png';
+
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <Container>
                 <div className='row d-flex justify-content-center align-content-center py-5'>
                     <div className='col-lg-4 col-md-4 col-sm-12 '>
-                        <img className='w-100 ' src={aboutImage} alt="" />
+                        {/* <img className='w-100 '  alt="" /> */}
                     </div>
                     <div className='col-lg-8 col-md-8 col-sm-12'>
                         <h1>About Me</h1>
